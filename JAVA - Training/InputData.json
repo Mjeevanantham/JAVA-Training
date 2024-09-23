@@ -1,0 +1,10 @@
+{
+  'Name':'Jeevanantham',
+  'Age': 22,
+  'Height': 5.6,
+  'Role': 'JR SDE',
+  {
+    'firstName':'Jeeva',
+    'lastName':'M'
+  }
+}
