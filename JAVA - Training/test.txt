@@ -1,4 +1,0 @@
-Name: jee
-Age: 3
-Role: jee
-Character: Good Boy

@@ -2,12 +2,11 @@ import java.io.*;
 import java.util.Scanner;
 
 public class TryWithResource {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-
-//            readFileAsText();
-//            readFileAsObj();
-//            writeFileInTxt(scanner);
+            readFileAsText();
+            readFileAsObj();
+            writeFileInTxt(scanner);
             writeFileInObj(scanner);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -44,7 +43,6 @@ public class TryWithResource {
             fileDate.write("Name: " + name + "\n");
             fileDate.write("Age: " + age + "\n");
             fileDate.write("Role: " + role + "\n");
-            fileDate.write("Character: " + "Good Boy" + "\n");
         }
     }
 
